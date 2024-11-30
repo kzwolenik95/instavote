@@ -8,7 +8,7 @@ patchesStrategicMerge:
 namespace: instavote
 images:
   - name: schoolofdevops/vote
-    newTag: v6 #{"$imagepolicy": "flux-system:vote:tag"}
+    newTag: main-59f9b466-1732975350 #{"$imagepolicy": "flux-system:vote:tag"}
 replicas:
   - name: vote
     count: 4
