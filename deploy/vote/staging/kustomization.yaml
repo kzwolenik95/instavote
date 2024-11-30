@@ -9,7 +9,7 @@ namespace: instavote
 images:
   - name: schoolofdevops/vote
     newName: kzwolenik95/vote
-    newTag: main-59f9b466-1732975561 #{"$imagepolicy": "flux-system:vote:tag"}
+    newTag: main-59f9b466-1732975350 #{"$imagepolicy": "flux-system:vote:tag"}
 replicas:
   - name: vote
     count: 4
